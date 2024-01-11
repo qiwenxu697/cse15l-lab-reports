@@ -2,8 +2,7 @@
 ## Examples of `cd`
 1. using the command with no arguments:
 ```
-# code block
-  `[user@sahara ~]$ cd
+  [user@sahara ~]$ cd
 
 ```
 (No ouput.) The working directory is home. 'cd set the argument to be the current directory. There is no argument for this command. Therefore, it has no output. 
@@ -25,6 +24,13 @@
 The working directory that the command was run is lecture1. `Hello.java is not a directory, so the output is an error.
 
 ## Examples of `ls`
-1.using the command with no arguments: 
+1. using the command with no arguments:
+```
+# code block
+[user@sahara ~/lecture1]$ ls
+Hello.class  Hello.java  messages  README
+```
+The
 2.using the command with a path to a directory as an argument: 
+
 3.using the command with a path to a file as an argument: 
