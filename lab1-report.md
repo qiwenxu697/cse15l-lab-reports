@@ -41,7 +41,8 @@ The working directory that the command was run is lecture1. `message` is the arg
 
 3.using the command with a path to a file as an argument: 
 ```
-[user@sahara ~/lecture1]$ ls zh-cn.txt
-ls: cannot access 'zh-cn.txt': No such file or directory
-[user@sahara ~/lecture1]$ 
+[user@sahara ~/lecture1]$ ls Hello.java
+Hello.java
+[user@sahara ~/lecture1]$
 ```
+The working directory that the command was run is lecture1. `Hello.java` is the argument. The path is `/home/lecture1/Hello.java`. There is a `Hello.java` in this path. Therefore, the output will be `Hello.java`.
