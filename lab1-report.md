@@ -1,10 +1,11 @@
 # week 1 lab report
 ## Examples of `cd
 1.using the command with no arguments:
-  `cd
-Code block: 
+```
+# code block
   `[user@sahara ~]$ cd
-  
+
+```
 (No ouput.) The working directory is home. 'cd set the argument to be the current directory. There is no argument for this command. Therefore, it has no output. 
 
 2.using the command with a path to a directory as an argument: 
