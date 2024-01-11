@@ -9,7 +9,6 @@
 
 2. using the command with a path to a directory as an argument: 
 ```
-# code block
   [user@sahara ~]$ cd lecture1
   [user@sahara ~/lecture1]$
 ```
@@ -17,7 +16,6 @@
 
 3. using the command with a path to a file as an argument: 
 ```
-# code block
   [user@sahara ~/lecture1]$ cd Hello.java
   bash: cd: Hello.java: Not a directory
 ```
@@ -26,7 +24,6 @@ The working directory that the command was run is lecture1. `Hello.java is not a
 ## Examples of `ls`
 1. using the command with no arguments:
 ```
-# code block
 [user@sahara ~/lecture1]$ ls
 Hello.class  Hello.java  messages  README
 ```
