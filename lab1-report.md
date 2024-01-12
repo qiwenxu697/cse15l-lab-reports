@@ -56,8 +56,12 @@ The working directory that the command was run is lecture1. There is no output. 
 
 2.using the command with a path to a directory as an argument: 
 ```
-
+[user@sahara ~/lecture1]$ cat messages
+cat: messages: Is a directory
+[user@sahara ~/lecture1]$ 
 ```
+The working directory that the command was run is lecture1. The argument `messages` is a diretory, not a files. Therefore, it outputs that `Is a directory`.
+
 3.using the command with a path to a file as an argument: 
   ```
   [user@sahara ~/lecture1]$ cat Hello.java
@@ -73,4 +77,4 @@ The working directory that the command was run is lecture1. There is no output. 
     }
   }[user@sahara ~/lecture1]$ 
   ```
-The working directory that the command was run is lecture1. 
+The working directory that the command was run is lecture1. `cat`command prints the code in the file `Hello.java`.
