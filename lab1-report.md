@@ -52,7 +52,7 @@ The working directory that the command was run is lecture1. `Hello.java` is the 
   ```
   [user@sahara ~/lecture1]$ cat
   ```
-There is no output. `cat` command prints one or more files given by the paths. In this case, there is not input diretory. The command is waiting for a standard input.
+The working directory that the command was run is lecture1. There is no output. `cat` command prints one or more files given by the paths. In this case, there is not input diretory. The command is waiting for a standard input.
 
 2.using the command with a path to a directory as an argument: 
 ```
