@@ -5,7 +5,7 @@
   [user@sahara ~]$ cd
   [user@sahara ~]$
 ```
-The working directory is home. 'cd change the current directory to be the argument. There is no argument for this command. Therefore, the current directory is not changing. 
+The working directory is home. `cd` change the current directory to be the argument. There is no argument for this command. Therefore, the current directory is not changing. 
 
 2. using the command with a path to a directory as an argument: 
 ```
@@ -20,7 +20,7 @@ The working directory is home. 'cd change the current directory to be the argume
   bash: cd: Hello.java: Not a directory
   [user@sahara ~/lecture1]$
 ```
-The working directory that the command was run is lecture1. `Hello.java` is not a directory, so the output is an error.
+The working directory that the command was run is lecture1. `Hello.java` is not a directory, so it outputs an error message.
 
 ## Examples of `ls`
 1. using the command with no arguments:
@@ -60,7 +60,7 @@ The working directory that the command was run is lecture1. There is no output. 
 cat: messages: Is a directory
 [user@sahara ~/lecture1]$ 
 ```
-The working directory that the command was run is lecture1. The argument `messages` is a diretory, not a files. Therefore, it outputs that `Is a directory`.
+The working directory that the command was run is lecture1. The argument `messages` is a diretory, not a files. Therefore, it outputs an error message saying tha `Is a directory`.
 
 3.using the command with a path to a file as an argument: 
   ```
