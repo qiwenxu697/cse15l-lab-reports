@@ -5,14 +5,14 @@
   [user@sahara ~]$ cd
   [user@sahara ~]$
 ```
-The working directory is home. `cd` change the current directory to be the argument. If there is no argument for this command, `cd` change to the working directory to be home.
+The working directory is home. `cd` change the current directory to be the argument. If there is no argument for this command, `cd` change to the working directory to be home. This is not an error.
 
 2. using the command with a path to a directory as an argument: 
 ```
   [user@sahara ~]$ cd lecture1
   [user@sahara ~/lecture1]$
 ```
-  The working directory that the command was run is home. After the command run, the current directory set to be lecture1.
+  The working directory that the command was run is home. After the command run, the current directory set to be lecture1. This is not an error.
 
 3. using the command with a path to a file as an argument: 
 ```
@@ -20,7 +20,7 @@ The working directory is home. `cd` change the current directory to be the argum
   bash: cd: Hello.java: Not a directory
   [user@sahara ~/lecture1]$
 ```
-The working directory that the command was run is lecture1. `Hello.java` is not a directory, so it outputs an error message.
+The working directory that the command was run is lecture1. `Hello.java` is not a directory, so it outputs an error message. This is an error.
 
 ## Examples of `ls`
 1. using the command with no arguments:
@@ -29,7 +29,7 @@ The working directory that the command was run is lecture1. `Hello.java` is not 
 Hello.class  Hello.java  messages  README
 [user@sahara ~/lecture1]$
 ```
-The working directory that the command was run is lecture1. `ls` will list all the files in the argument path. If there is no argument, `ls` will list the files in the current directory.
+The working directory that the command was run is lecture1. `ls` will list all the files in the argument path. If there is no argument, `ls` will list the files in the current directory. This is not an error.
 
 2.using the command with a path to a directory as an argument: 
 ```
@@ -37,7 +37,7 @@ The working directory that the command was run is lecture1. `ls` will list all t
 en-us.txt  es-mx.txt  fr.txt  zh-cn.txt
 [user@sahara ~/lecture1]$ 
 ```
-The working directory that the command was run is lecture1. `message` is the argument, so `ls messages` lists all the files inside `messages`.
+The working directory that the command was run is lecture1. `message` is the argument, so `ls messages` lists all the files inside `messages`. This is not an error.
 
 3.using the command with a path to a file as an argument: 
 ```
@@ -45,14 +45,14 @@ The working directory that the command was run is lecture1. `message` is the arg
 Hello.java
 [user@sahara ~/lecture1]$
 ```
-The working directory that the command was run is lecture1. `Hello.java` is the argument. The path is `/home/lecture1/Hello.java`. There is a `Hello.java` in this path. Therefore, the output will be `Hello.java`.
+The working directory that the command was run is lecture1. `Hello.java` is the argument. The path is `/home/lecture1/Hello.java`. There is a `Hello.java` in this path. Therefore, the output will be `Hello.java`. This is not an error.
 
 ## Examples of `cat`
 1. using the command with no arguments:
   ```
   [user@sahara ~/lecture1]$ cat
   ```
-The working directory that the command was run is lecture1. There is no output. `cat` command prints one or more files given by the paths. In this case, there is not input diretory. The command is waiting for a standard input.
+The working directory that the command was run is lecture1. There is no output. `cat` command prints one or more files given by the paths. In this case, there is not input diretory. The command is waiting for a standard input. This is not an error.
 
 2.using the command with a path to a directory as an argument: 
 ```
@@ -60,7 +60,7 @@ The working directory that the command was run is lecture1. There is no output. 
 cat: messages: Is a directory
 [user@sahara ~/lecture1]$ 
 ```
-The working directory that the command was run is lecture1. The argument `messages` is a diretory, not a files. Therefore, it outputs an error message saying tha `Is a directory`.
+The working directory that the command was run is lecture1. The argument `messages` is a diretory, not a files. Therefore, it outputs an error message saying tha `Is a directory`. This is an error.
 
 3.using the command with a path to a file as an argument: 
   ```
@@ -77,4 +77,5 @@ The working directory that the command was run is lecture1. The argument `messag
     }
   }[user@sahara ~/lecture1]$ 
   ```
-The working directory that the command was run is lecture1. `cat`command prints the code in the file `Hello.java`.
+The working directory that the command was run is lecture1. `cat`command prints the code in the file `Hello.java`. This is not an error.
+
