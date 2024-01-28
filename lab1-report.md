@@ -5,7 +5,7 @@
   [user@sahara ~]$ cd
   [user@sahara ~]$
 ```
-The working directory is home. `cd` change the current directory to be the argument. There is no argument for this command. Therefore, the current directory is not changing. 
+The working directory is home. `cd` change the current directory to be the argument. If there is no argument for this command, `cd` change to the working directory to be home.
 
 2. using the command with a path to a directory as an argument: 
 ```
